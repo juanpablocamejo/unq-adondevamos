@@ -1,5 +1,5 @@
 language: java
-script: mvn clean verify -q
+script: mvn clean heroku:deploy-war
 deploy:
   provider: heroku
   api_key: d75c7509-1a26-4283-ba25-3e59df710b8f
