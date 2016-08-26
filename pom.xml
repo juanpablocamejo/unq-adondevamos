@@ -28,13 +28,6 @@
 				<version>1.1.1</version>
 				<configuration>
 					<appName>adondevamos</appName>
-					<processTypes>
-						<web>java $JAVA_OPTS -jar target/dependency/jetty-runner.jar
-							--port $PORT target/*.war</web>
-					</processTypes>
-					<configVars>
-						<HEROKU_API_KEY>SomeValue</HEROKU_API_KEY>
-					</configVars>
 				</configuration>
 			</plugin>
 			<plugin>
